@@ -1,0 +1,35 @@
+------------
+Icon        |
+------------
+children                图标字体的名称。
+classes                 覆盖或扩展应用于组件的样式
+    root
+    colorPrimary
+    colorSecondary
+    colorAction
+    colorError
+    colorDisabled
+color                   组件的颜色。它支持那些对这个组件有意义的主题颜色。
+
+
+Material-UI提供两个组件来渲染系统图标：
+"Icon渲染字体图标"  和   "SvgIcon渲染SVG路径"
+您可以使用material.io/tools/icons来查找特定的图标
+
+Icon组件将显示任何支持连字的图标字体的图标。作为先决条件，您必须通过Google Web Fonts包含项目中的材质图标字体，例如：
+
+-------------
+SVGIcon      |
+-------------
+children
+classes
+    root
+    colorPrimary
+    colorSecondary
+    colorAction
+    colorError
+    colorDisabled
+color
+nativeColor             将颜色属性应用于SVG元素。
+titleAccess             为包含它的元素提供可读的标题
+viewBox                 允许您重新定义SVG元素内没有单位的坐标。例如，如果SVG元素的宽度是500（宽度）乘以200（高度），并且您传递了viewBox =“0 0 50 20”，这意味着SVG中的坐标将从左上角（0,0）右下（50,20），每个单位价值10px。

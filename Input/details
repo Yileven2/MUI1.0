@@ -1,0 +1,92 @@
+=============
+<Input/>
+=============
+autoComplete            此属性可帮助用户更快地填写表单，特别是在移动设备上。名字可能会让人困惑，因为它更像是一个自动填充。
+autoFocus               如果为true，则输入将在第一次Mount期间获得焦点。
+classes                 覆盖或扩展应用于组件的样式。
+    root
+    formControl
+    focused
+    disabled
+    underline
+    error
+    multiline
+    fullWidth
+    input
+    inputMarginDense
+    inputMultiline
+    inputType
+    inputTypeSearch
+className               包装器元素的CSS类名称。
+defaultValue            默认输入值，在不控制组件时很有用。
+disabled
+disableUnderline        true，没有下划线
+endAdornment            组建的最后使用此玩意
+error                   如果为true，则输入将指示错误。
+fullWidth
+id
+inputComponent          用于本机输入的组件。可以是使用DOM元素或组件的字符串。
+inputProps              应用于输入元素的属性。
+inputRef                使用该属性将ref回调传递给本机输入组件。
+margin                  可以是dense和none，如果dense的话，会调整垂直间距。这通常通过FormControl的上下文获得。
+multiline               true，一个文本域
+name                    name属性
+onChange                value改变时出发的事件
+placeholder             占位符
+rows                    多行选项设置为true时显示的行数。参数可以是string或者number
+rowsMax                 最大行
+startAdornment          在组建的最开始使用这个玩意
+type                    input框的类型
+value                   value值
+helperText              帮助信息
+
+==================
+<TextField/>
+==================
+autoComplete            自动完成
+autoFocus               自动聚焦
+defaultValue            Input元素的默认值
+disabled                true，输入禁用
+error                   true，标签以错误状态显示
+FormHelperTextProps     应用于FormHelperText元素的属性
+fullwidth
+helperText              帮助文字内容
+id
+InputLabelProps         应用于InputLabel元素的属性。
+InputProps              应用于输入元素的属性。
+inputProps              应用于本机输入元素的属性。
+inputRef                使用该属性将ref回调给本机输入组件
+label                   标签内容
+margin                  默认为none，如果为dense，normal将调整这个和包含的组件的垂直间距。
+multiline               true，表示输入框是一个多行文本框
+name
+onChange
+placeholder
+required                true，标签必须有值，不能为空
+rows                    多行选项设置为true时显示的行数。
+rowsMax                 最大行
+select                  在将Input元素传递给Select作为输入参数的同时呈现Select元素。
+SelectProps             应用于Select元素的属性。
+type                    输入元素的类型属性
+value
+
+==================
+<InputLabel/>
+==================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

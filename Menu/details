@@ -1,0 +1,22 @@
+-------------------
+Menu               |
+-------------------
+anchorEl                DOM元素用于设置菜单的位置。
+children                菜单项的内容
+classes                 覆盖或扩展应用于组件的样式
+MenuListProps           应用于MenuList元素的属性。
+onClose                 当组件请求关闭时触发回调。
+onEnter                 在菜单进入前触发回调。
+onEntered               当菜单进入时触发回调。
+onEntering              当菜单正在进入时触发回调。
+onExit                  当组件将要退出时触发回调。
+onExited                当组件已经退出时触发回调。
+onExiting               当组件正在退出时触发回调。
+open                    true，菜单可见
+PopoverClasses          应用于Popover元素的类属性。
+transitionDuration      以毫秒为单位的转换长度或“自动”
+
+
+
+
+

@@ -1,0 +1,37 @@
+----------------
+Button         |
+----------------
+children                按钮的内容
+classes                 覆盖或扩展应用于组件的样式，详细内容查看Classes基本样式
+color                   组件的颜色
+component               用于根节点的组件
+disabled                true，按钮不可用
+disableFocusRipple      使用此属性，则参数必须为true，且为true时，键盘焦点纹波不可见
+disableRipple           true，涟漪不可见
+fullWidth               true，满宽度
+href                    点击按钮时链接到的URL。如果定义，则将使用a元素作为按钮的根节点
+mini                    如果true，并且按钮类型是'fab'，则将使用迷你浮动动作按钮样式。
+size                    按钮的尺寸：small，medium，large，默认为medium
+variant                 按钮类型：flat，outline，raised，fab
+aria-label              fab按钮的功能图标，属性值可以是add，edit，delete等
+
+---------------
+ButtonBase    |
+---------------
+action                  组件装入时触发回调。当你想以编程方式触发一个动作时，这很有用。
+buttonRef               使用该属性将ref回调传递给本地按钮组件。
+centerRipple            true,涟漪不再跟随鼠标，而是中心位置
+children
+classes
+component
+disabled
+disableRipple
+focusRipple             如果为true，则基本按钮将具有键盘焦点波动。disableRipple也必须是false。
+focusVisibleClassName   该属性可以帮助一个人知道哪个元素具有键盘焦点。
+onFocusVisible          使用键盘聚焦组件时触发回调。 我们也触发了onFocus回调。
+touchRippleProps        应用于TouchRipple元素的属性
+
+
+
+
+

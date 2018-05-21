@@ -1,0 +1,32 @@
+{
+  "name": "MUI1.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^1.0.0-rc.0",
+    "@material-ui/icons": "^1.0.0-rc.0",
+    "autosuggest-highlight": "^3.1.1",
+    "classnames": "latest",
+    "create-react-app": "^1.5.2",
+    "downshift": "^1.31.14",
+    "keycode": "^2.2.0",
+    "material-ui": "^1.0.0-beta.47",
+    "prop-types": "^15.6.1",
+    "react-autosuggest": "^9.3.4",
+    "react-number-format": "^3.3.4",
+    "react-popper": "latest",
+    "react-select": "^1.2.1",
+    "react-swipeable-views": "latest",
+    "react-text-mask": "^5.4.1"
+  },
+  "devDependencies": {
+    "react": "latest"
+  }
+}
