@@ -194,9 +194,6 @@ class Menus extends Component{
                                      <SendIcon/>
                                  </ListItemIcon>
                                  <ListItemText className={{primary:classes.primary}} inset primary="Sent mail"/>
-                                 <ListItemIcon className={classes.icon}>
-                                     <SendIcon/>
-                                 </ListItemIcon>
                              </MenuItem>
                              <MenuItem className={classes.menuItem}>
                                  <ListItemIcon className={classes.icon}>
@@ -217,7 +214,7 @@ class Menus extends Component{
         )
     }
 }
-Menus.prototypes={
+Menus.PropTypes={
     classes:PropTypes.object.isRequired,
 };
 export default withStyles(styels)(Menus);
